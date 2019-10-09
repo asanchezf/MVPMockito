@@ -44,7 +44,7 @@ public class LoginActivity extends AppCompatActivity implements Login.View{
         return edtPassword.getText().toString();
     }
 
-    public void login(View view) {
+    public void login(View view) {//Es el onclick del botón.
         mPresenter.validaUsuario(getUserName(),getPassWord());
     }
 }

@@ -9,7 +9,7 @@ public class LoginPresenter implements Login.Presenter {
     private Login.Model mModel;
 
     public LoginPresenter(Login.View view) {
-        //Recogemos la variable view y la igualamos a la nuestra y además creamos un ejemplar de LoginModel()
+        //Recogemos la variable view y la igualamos a la nuestra y además creamos un ejemplar de la clae LoginModel()
         mView = view;
         mModel = new LoginModel(this);
     }
